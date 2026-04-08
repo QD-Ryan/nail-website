@@ -9,6 +9,7 @@ export default function LuxeNailSalonWebsite() {
   ];
 
   const gallery = [
+    "/images/hj.jpg",
     "Soft nude almond set",
     "Glossy French tip",
     "Chrome minimalist design",
