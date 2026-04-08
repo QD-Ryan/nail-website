@@ -9,13 +9,12 @@ export default function LuxeNailSalonWebsite() {
   ];
 
   const gallery = [
-    "/images/hj.jpg",
-    "Soft nude almond set",
-    "Glossy French tip",
-    "Chrome minimalist design",
-    "Luxury spa pedicure",
-    "Bridal nail set",
-    "Seasonal custom art",
+  "/images/hj.jpg",
+  "/images/hj.jpg",
+  "/images/hj.jpg",
+  "/images/hj.jpg",
+  "/images/hj.jpg",
+  "/images/hj.jpg",
   ];
 
   const testimonials = [
@@ -170,12 +169,18 @@ export default function LuxeNailSalonWebsite() {
             </p>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {gallery.map((item, index) => (
-              <div key={item} className="rounded-[2rem] bg-stone-50 p-4 ring-1 ring-stone-200">
-                <div className="h-56 rounded-[1.5rem] bg-[linear-gradient(135deg,#fafaf9,#fdf2f8,#fbcfe8)]" />
-                <div className="pt-4 text-sm font-medium text-stone-700">0{index + 1}. {item}</div>
-              </div>
-            ))}
+            {gallery.map((img, index) => (
+  <div key={img + index} className="rounded-[2rem] bg-stone-50 p-4 ring-1 ring-stone-200">
+    <img
+      src={img}
+      alt={`Nail design ${index + 1}`}
+      className="h-56 w-full rounded-[1.5rem] object-cover"
+    />
+    <div className="pt-4 text-sm font-medium text-stone-700">
+      0{index + 1}. Nail design
+    </div>
+  </div>
+))}
           </div>
         </div>
       </section>
