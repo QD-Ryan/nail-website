@@ -13,8 +13,8 @@ export default function LuxeNailSalonWebsite() {
   { src: "/images/ha.jpg", title: "Yeu"},
   { src: "/images/ho.jpg", title: "Diem <3"},
   { src: "/images/hu.jpg", title: "Nhat"},
-  { src: "/images/hi.jpg", title: "Tren"},
-  { src: "/images/hi.jpg", title: "Doi"},
+  { src: "/images/hy.jpg", title: "Tren"},
+  { src: "/images/he.jpg", title: "Doi"},
 ];
 
   const testimonials = [
