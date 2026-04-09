@@ -9,12 +9,12 @@ export default function LuxeNailSalonWebsite() {
   ];
 
   const gallery = [
-  "/images/hj.jpg",
-  "/images/hj.jpg",
-  "/images/hj.jpg",
-  "/images/hj.jpg",
-  "/images/hj.jpg",
-  "/images/hj.jpg",
+    "/images/hi.jpg",
+    "/images/hi.jpg",
+    "/images/hi.jpg",
+    "/images/hi.jpg",
+    "/images/hi.jpg",
+    "/images/hi.jpg",
   ];
 
   const testimonials = [
@@ -46,15 +46,29 @@ export default function LuxeNailSalonWebsite() {
       <header className="sticky top-0 z-30 border-b border-stone-200/80 bg-white/85 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
-            <div className="text-xl font-semibold tracking-[0.2em] uppercase">Luxury Nail Spa</div>
-            <div className="text-sm text-stone-500">Modern nail care with a polished, elevated experience</div>
+            <div className="text-xl font-semibold tracking-[0.2em] uppercase">
+              Luxury Nail Spa
+            </div>
+            <div className="text-sm text-stone-500">
+              Modern nail care with a polished, elevated experience
+            </div>
           </div>
           <nav className="hidden gap-6 text-sm md:flex">
-            <a href="#services" className="hover:text-stone-600">Services</a>
-            <a href="#gallery" className="hover:text-stone-600">Gallery</a>
-            <a href="#about" className="hover:text-stone-600">About</a>
-            <a href="#reviews" className="hover:text-stone-600">Reviews</a>
-            <a href="#contact" className="hover:text-stone-600">Contact</a>
+            <a href="#services" className="hover:text-stone-600">
+              Services
+            </a>
+            <a href="#gallery" className="hover:text-stone-600">
+              Gallery
+            </a>
+            <a href="#about" className="hover:text-stone-600">
+              About
+            </a>
+            <a href="#reviews" className="hover:text-stone-600">
+              Reviews
+            </a>
+            <a href="#contact" className="hover:text-stone-600">
+              Contact
+            </a>
           </nav>
           <a
             href="#booking"
@@ -76,8 +90,10 @@ export default function LuxeNailSalonWebsite() {
               A nail salon website that feels as premium as your service.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-stone-600">
-              Built to attract modern clients, highlight your best work, and turn visitors into bookings.
-              Clear pricing, online scheduling, beautiful visuals, and a trusted brand experience — all in one place.
+              Built to attract modern clients, highlight your best work, and
+              turn visitors into bookings. Clear pricing, online scheduling,
+              beautiful visuals, and a trusted brand experience — all in one
+              place.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
@@ -96,15 +112,21 @@ export default function LuxeNailSalonWebsite() {
             <div className="mt-10 grid max-w-lg grid-cols-3 gap-4 text-center">
               <div className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-stone-200">
                 <div className="text-2xl font-semibold">4.9★</div>
-                <div className="mt-1 text-sm text-stone-500">Client rating</div>
+                <div className="mt-1 text-sm text-stone-500">
+                  Client rating
+                </div>
               </div>
               <div className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-stone-200">
                 <div className="text-2xl font-semibold">7 Days</div>
-                <div className="mt-1 text-sm text-stone-500">Flexible hours</div>
+                <div className="mt-1 text-sm text-stone-500">
+                  Flexible hours
+                </div>
               </div>
               <div className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-stone-200">
                 <div className="text-2xl font-semibold">24/7</div>
-                <div className="mt-1 text-sm text-stone-500">Online booking</div>
+                <div className="mt-1 text-sm text-stone-500">
+                  Online booking
+                </div>
               </div>
             </div>
           </div>
@@ -112,15 +134,21 @@ export default function LuxeNailSalonWebsite() {
           <div className="grid gap-5 md:grid-cols-2">
             <div className="rounded-[2rem] bg-white p-5 shadow-xl ring-1 ring-stone-200">
               <div className="h-72 rounded-[1.5rem] bg-[linear-gradient(135deg,#f5f5f4,#e7e5e4,#fce7f3)]" />
-              <div className="pt-4 text-sm text-stone-500">Minimal luxury interior • clean aesthetic • premium experience</div>
+              <div className="pt-4 text-sm text-stone-500">
+                Minimal luxury interior • clean aesthetic • premium experience
+              </div>
             </div>
             <div className="space-y-5 pt-8">
               <div className="rounded-[2rem] bg-white p-5 shadow-xl ring-1 ring-stone-200">
                 <div className="h-40 rounded-[1.5rem] bg-[linear-gradient(135deg,#fff1f2,#ffe4e6,#fecdd3)]" />
-                <div className="pt-4 text-sm text-stone-500">Signature nails and seasonal art portfolio</div>
+                <div className="pt-4 text-sm text-stone-500">
+                  Signature nails and seasonal art portfolio
+                </div>
               </div>
               <div className="rounded-[2rem] bg-stone-900 p-6 text-white shadow-xl">
-                <div className="text-sm uppercase tracking-[0.2em] text-stone-300">Why clients choose us</div>
+                <div className="text-sm uppercase tracking-[0.2em] text-stone-300">
+                  Why clients choose us
+                </div>
                 <ul className="mt-4 space-y-3 text-sm text-stone-100">
                   <li>• Clean, modern, upscale brand image</li>
                   <li>• Transparent service menu and pricing</li>
@@ -135,22 +163,32 @@ export default function LuxeNailSalonWebsite() {
 
       <section id="services" className="mx-auto max-w-7xl px-6 py-20">
         <div className="max-w-2xl">
-          <div className="text-sm uppercase tracking-[0.25em] text-stone-500">Services</div>
-          <h2 className="mt-3 text-4xl font-semibold tracking-tight">A clear menu that helps clients book faster</h2>
+          <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
+            Services
+          </div>
+          <h2 className="mt-3 text-4xl font-semibold tracking-tight">
+            A clear menu that helps clients book faster
+          </h2>
           <p className="mt-4 text-lg leading-8 text-stone-600">
-            Your website should make it easy for first-time visitors to understand what you offer, how long each service takes, and what price range to expect.
+            Your website should make it easy for first-time visitors to
+            understand what you offer, how long each service takes, and what
+            price range to expect.
           </p>
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => (
-            <div key={service.name} className="rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <div
+              key={service.name}
+              className="rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-stone-200"
+            >
               <div className="text-xl font-medium">{service.name}</div>
               <div className="mt-3 flex items-center justify-between text-sm text-stone-500">
                 <span>{service.time}</span>
                 <span>{service.price}</span>
               </div>
               <p className="mt-4 text-sm leading-7 text-stone-600">
-                Premium care, thoughtful detail, and a relaxing service flow tailored for clients who value quality and consistency.
+                Premium care, thoughtful detail, and a relaxing service flow
+                tailored for clients who value quality and consistency.
               </p>
             </div>
           ))}
@@ -161,26 +199,36 @@ export default function LuxeNailSalonWebsite() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
-              <div className="text-sm uppercase tracking-[0.25em] text-stone-500">Gallery</div>
-              <h2 className="mt-3 text-4xl font-semibold tracking-tight">Show your best work before the client even walks in</h2>
+              <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
+                Gallery
+              </div>
+              <h2 className="mt-3 text-4xl font-semibold tracking-tight">
+                Show your best work before the client even walks in
+              </h2>
             </div>
             <p className="max-w-xl text-stone-600">
-              For nail salons, strong visuals are not optional. A polished gallery builds trust and helps new clients choose your salon with confidence.
+              For nail salons, strong visuals are not optional. A polished
+              gallery builds trust and helps new clients choose your salon with
+              confidence.
             </p>
           </div>
+
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {gallery.map((img, index) => (
-  <div key={img + index} className="rounded-[2rem] bg-stone-50 p-4 ring-1 ring-stone-200">
-    <img
-      src={img}
-      alt={`Nail design ${index + 1}`}
-      className="h-56 w-full rounded-[1.5rem] object-cover"
-    />
-    <div className="pt-4 text-sm font-medium text-stone-700">
-      0{index + 1}. Nail design
-    </div>
-  </div>
-))}
+              <div
+                key={img + index}
+                className="rounded-[2rem] bg-stone-50 p-4 ring-1 ring-stone-200"
+              >
+                <img
+                  src={img}
+                  alt={`Nail design ${index + 1}`}
+                  className="h-56 w-full rounded-[1.5rem] object-cover"
+                />
+                <div className="pt-4 text-sm font-medium text-stone-700">
+                  0{index + 1}. Nail design
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -188,23 +236,37 @@ export default function LuxeNailSalonWebsite() {
       <section id="about" className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-10 lg:grid-cols-2">
           <div>
-            <div className="text-sm uppercase tracking-[0.25em] text-stone-500">About the salon</div>
-            <h2 className="mt-3 text-4xl font-semibold tracking-tight">Designed for clients who want quality, comfort, and consistency</h2>
+            <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
+              About the salon
+            </div>
+            <h2 className="mt-3 text-4xl font-semibold tracking-tight">
+              Designed for clients who want quality, comfort, and consistency
+            </h2>
             <p className="mt-5 text-lg leading-8 text-stone-600">
-              We combine clean salon standards, refined service, and detail-focused artistry to create a premium appointment experience. Our team is trained to deliver beautiful results while making every client feel relaxed, welcomed, and cared for.
+              We combine clean salon standards, refined service, and
+              detail-focused artistry to create a premium appointment
+              experience. Our team is trained to deliver beautiful results while
+              making every client feel relaxed, welcomed, and cared for.
             </p>
             <p className="mt-4 text-lg leading-8 text-stone-600">
-              This section is where your real story should go: why you opened the salon, what makes your brand different, and why local clients should trust your team over nearby competitors.
+              This section is where your real story should go: why you opened
+              the salon, what makes your brand different, and why local clients
+              should trust your team over nearby competitors.
             </p>
           </div>
           <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-stone-200">
             <div className="text-xl font-medium">Meet the Team</div>
             <div className="mt-6 space-y-4">
               {team.map((member) => (
-                <div key={member.name} className="flex items-center justify-between rounded-2xl bg-stone-50 px-5 py-4">
+                <div
+                  key={member.name}
+                  className="flex items-center justify-between rounded-2xl bg-stone-50 px-5 py-4"
+                >
                   <div>
                     <div className="font-medium">{member.name}</div>
-                    <div className="text-sm text-stone-500">{member.role}</div>
+                    <div className="text-sm text-stone-500">
+                      {member.role}
+                    </div>
                   </div>
                   <div className="h-12 w-12 rounded-full bg-[linear-gradient(135deg,#e7e5e4,#fbcfe8)]" />
                 </div>
@@ -217,14 +279,25 @@ export default function LuxeNailSalonWebsite() {
       <section id="reviews" className="bg-stone-900 py-20 text-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-2xl">
-            <div className="text-sm uppercase tracking-[0.25em] text-stone-400">Reviews</div>
-            <h2 className="mt-3 text-4xl font-semibold tracking-tight">Social proof that turns visitors into loyal clients</h2>
+            <div className="text-sm uppercase tracking-[0.25em] text-stone-400">
+              Reviews
+            </div>
+            <h2 className="mt-3 text-4xl font-semibold tracking-tight">
+              Social proof that turns visitors into loyal clients
+            </h2>
           </div>
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {testimonials.map((review) => (
-              <div key={review.name} className="rounded-[2rem] bg-white/5 p-6 ring-1 ring-white/10 backdrop-blur-sm">
-                <div className="text-lg leading-8 text-stone-100">“{review.quote}”</div>
-                <div className="mt-5 text-sm uppercase tracking-[0.2em] text-stone-400">{review.name}</div>
+              <div
+                key={review.name}
+                className="rounded-[2rem] bg-white/5 p-6 ring-1 ring-white/10 backdrop-blur-sm"
+              >
+                <div className="text-lg leading-8 text-stone-100">
+                  “{review.quote}”
+                </div>
+                <div className="mt-5 text-sm uppercase tracking-[0.2em] text-stone-400">
+                  {review.name}
+                </div>
               </div>
             ))}
           </div>
@@ -234,32 +307,49 @@ export default function LuxeNailSalonWebsite() {
       <section id="booking" className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-stone-200">
-            <div className="text-sm uppercase tracking-[0.25em] text-stone-500">Booking</div>
-            <h2 className="mt-3 text-4xl font-semibold tracking-tight">Make online booking simple</h2>
+            <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
+              Booking
+            </div>
+            <h2 className="mt-3 text-4xl font-semibold tracking-tight">
+              Make online booking simple
+            </h2>
             <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-600">
-              This section can connect directly to your booking software. Add service categories, staff selection, appointment rules, deposits, reminder texts, and confirmation emails.
+              This section can connect directly to your booking software. Add
+              service categories, staff selection, appointment rules, deposits,
+              reminder texts, and confirmation emails.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl bg-stone-50 p-5">
                 <div className="font-medium">24/7 self-booking</div>
-                <p className="mt-2 text-sm leading-7 text-stone-600">Clients can book anytime without calling the front desk.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-600">
+                  Clients can book anytime without calling the front desk.
+                </p>
               </div>
               <div className="rounded-2xl bg-stone-50 p-5">
                 <div className="font-medium">Deposit & no-show control</div>
-                <p className="mt-2 text-sm leading-7 text-stone-600">Reduce last-minute cancellations and protect busy time slots.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-600">
+                  Reduce last-minute cancellations and protect busy time slots.
+                </p>
               </div>
               <div className="rounded-2xl bg-stone-50 p-5">
                 <div className="font-medium">Automated reminders</div>
-                <p className="mt-2 text-sm leading-7 text-stone-600">Text and email reminders keep your schedule on track.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-600">
+                  Text and email reminders keep your schedule on track.
+                </p>
               </div>
               <div className="rounded-2xl bg-stone-50 p-5">
                 <div className="font-medium">Staff selection</div>
-                <p className="mt-2 text-sm leading-7 text-stone-600">Let clients choose a technician or book the first available opening.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-600">
+                  Let clients choose a technician or book the first available
+                  opening.
+                </p>
               </div>
             </div>
           </div>
           <div className="rounded-[2rem] bg-[linear-gradient(180deg,#111827,#292524)] p-8 text-white shadow-xl">
-            <div className="text-sm uppercase tracking-[0.25em] text-stone-300">Contact</div>
+            <div className="text-sm uppercase tracking-[0.25em] text-stone-300">
+              Contact
+            </div>
             <div className="mt-4 space-y-5 text-sm leading-7 text-stone-200" id="contact">
               <div>
                 <div className="font-medium text-white">Address</div>
